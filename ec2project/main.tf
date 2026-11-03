@@ -36,7 +36,7 @@ egress {
 }
 resource "aws_instance" "jeevitha_ec2" {
     ami = "ami-090d68841c2a28756"
-    instance_type = "t3.micro"
+    instance_type = "t2.micro"
     availability_zone = "ap-south-1a"
     subnet_id = data.aws_subnet.default.id
     key_name = aws_key_pair.my_key.key_name

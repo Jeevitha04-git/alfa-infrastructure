@@ -12,6 +12,7 @@ output "private_ip" {
 }
 
 output "instance_name" {
-  description = "name for ec2 instance"
+  description = "name for instance"
   value       = aws_instance.instance_name.tags
 }
+

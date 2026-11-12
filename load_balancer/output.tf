@@ -7,7 +7,7 @@ output "vpc_cidr" {
   value       = aws_vpc.main.id
 }
 output "public_subnet_id" {
-  description = "subnet id for  public"
+  description = "subnet for public"
   value       = aws_subnet.public[0].id
 }
 output "private_subnet_id" {

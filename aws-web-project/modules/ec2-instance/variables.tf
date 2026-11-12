@@ -1,5 +1,5 @@
 variable "aws_region" {
-    description = "this is reagio of ec2 instance"
+    description = "this is region of ec2 instance"
     type = string
 }
 variable "instance_name" {
